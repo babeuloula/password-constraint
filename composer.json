@@ -1,0 +1,38 @@
+{
+    "name": "babeuloula/password-constraint",
+    "description": "Password constraint for Symfony",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BaBeuloula\\Constraint\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BaBeuloula\\Tests\\Constraint\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BaBeuloula",
+            "email": "info@babeuloula.fr"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "symfony/validator": "^6.0"
+    },
+    "require-dev": {
+        "babeuloula/phpcs": "^1.4",
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^1.6",
+        "phpstan/phpstan-symfony": "^1.1",
+        "symfony/polyfill-intl-icu": "^1.25"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
