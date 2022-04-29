@@ -19,9 +19,9 @@ class PasswordValidatorTest extends ConstraintValidatorTestCase
     }
 
     /**
-     * @dataProvider invalidPasswordProvider
-     *
      * @param array<string, string> $violations
+     *
+     * @dataProvider invalidPasswordProvider
      */
     public function testInvalidPassword(?string $value, Password $contraint, array $violations): void
     {
