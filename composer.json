@@ -21,7 +21,7 @@
     ],
     "require": {
         "php": ">=8.1",
-        "symfony/validator": "^6.0"
+        "symfony/validator": "^6.0|^7.0"
     },
     "require-dev": {
         "babeuloula/phpcs": "^1.4",
